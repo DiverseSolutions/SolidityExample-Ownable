@@ -20,7 +20,7 @@ module.exports = {
 
   dashboard: {
     port: 24012,
-  }
+  },
 
   networks: {
     ethereum: {
