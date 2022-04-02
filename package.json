@@ -1,0 +1,24 @@
+{
+  "name": "diverse-template-truffle-nextjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "remix": "npx remixd -s . --remix-ide https://remix.dsolutions.mn",
+    "remix-original": "npx remixd -s . --remix-ide https://remix.ethereum.org"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.0.4",
+    "dotenv": "^16.0.0",
+    "truffle-flatten": "^1.0.8"
+  },
+  "devDependencies": {
+    "truffle-plugin-verify": "^0.5.24"
+  }
+}
